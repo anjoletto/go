@@ -1,0 +1,12 @@
+{
+  "packages": [
+    "go"
+  ],
+  "shell": {
+    "init_hook": [
+      "source ~/.zshenv",
+      "export shell=/run/current-system/sw/bin/zsh",
+      "zsh"
+    ]
+  }
+}
